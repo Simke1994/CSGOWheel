@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.navigacija{
+    border-radius: 0px!important;
+    position: fixed;
+    width: 100%;
+}
+.navbar-nav ul{
+    margin-left: 15rem;
+}
+ul li a{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: sans-serif!important;
+}
+ul li a:hover{
+    color: green !important;
+}
+.navbar-header .navbar-brand{
+    font-size: 22px;
+    margin-left:-0.5rem;
+}
+.dropdown-menu{
+    position: absolute!important;
+    left: -110%!important;
+    background: rgb(34, 33, 33)!important;
+}
+.navbar-brand{
+    cursor: pointer;
+}

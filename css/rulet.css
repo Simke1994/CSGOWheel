@@ -1,0 +1,218 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.zadnjirols .t100{
+    position: absolute;
+    top: 1%;
+    left:45%;
+}
+.zadnjirols .s1001{
+    position: relative;
+    top: 10%;
+    left:5%;
+    display: inline;
+}
+.zadnjirols .s1002{
+    position: relative;
+    top: 10%;
+    left:7%;
+    display: inline;
+}
+.zadnjirols .s1003{
+    position: relative;
+    top: 10%;
+    left:9%;
+    display: inline;
+}
+.rulet .form-control{
+    position: absolute;
+    top: 51%;
+    left:30%;
+    width: 19.45%;
+    height: 4vh;
+    border-radius: 0%;
+    font: bold 14px sans-serif;
+}
+.dugme1 .btn-warning{
+    position: absolute;
+    top: 51%;
+    left:50.4%;
+    height: 4vh;
+    border-radius: 0%;
+    color: black;
+    font: bold 14px sans-serif;
+}
+.dugme2 .btn-warning{
+    position: absolute;
+    top: 51%;
+    left:56.9%;
+    height: 4vh;
+    border-radius: 0%;
+    font-size: 13px;
+    color: black;
+    font: bold 14px sans-serif;
+}
+.dugme3 .btn-warning{
+    position: absolute;
+    top: 51%;
+    left:60.8%;
+    height: 4vh;
+    border-radius: 0%;
+    color: black;
+    font: bold 14px sans-serif;
+}
+.dugme4 .btn-warning{
+    position: absolute;
+    top: 51%;
+    left:64.7%;
+    height: 4vh;
+    border-radius: 0%;
+    color: black;
+    font: bold 14px sans-serif;
+}
+.dugme5 .btn-warning{
+    position: absolute;
+    top: 51%;
+    left:68.7%;
+    height: 4vh;
+    border-radius: 0%;
+    color: black;
+    font: bold 14px sans-serif;
+}
+.dugme6 .btn-warning{
+    position: absolute;
+    top: 51%;
+    left:73.2%;
+    height: 4vh;
+    border-radius: 0%;
+    color: black;
+    font: bold 14px sans-serif;
+}
+.dugme7 .btn-warning{
+    position: absolute;
+    top: 51%;
+    left:78.7%;
+    height: 4vh;
+    border-radius: 0%;
+    color: black;
+    font: bold 14px sans-serif;
+}
+.dugme8 .btn-warning{
+    position: absolute;
+    top: 51%;
+    left:81.8%;
+    height: 4vh;
+    border-radius: 0%;
+    color: black;
+    font: bold 14px sans-serif;
+}
+.dugme9 .btn-warning{
+    position: absolute;
+    top: 51%;
+    left:86%;
+    height: 4vh;
+    border-radius: 0%;
+    color: black;
+    font: bold 14px sans-serif;
+}
+
+.btn1{
+    width: 19.2%;
+    height: 6vh;
+    background: rgb(2, 47, 114);
+    position: absolute;
+    top: 60%;
+    left: 30.5%;
+    color: white;
+    padding-top: 0.5%;
+    border-radius:4px;
+    text-align: center;
+    text-decoration: none!important;
+}
+.btn2{
+    width: 19.2%;
+    height: 6vh;
+    background: green;
+    position: absolute;
+    top: 60%;
+    left:50.5%;
+    color: white;
+    padding-top: 0.5%;
+    border-radius:4px;
+    text-align: center;
+    text-decoration: none!important;
+}
+.btn3{
+    width: 19.2%;
+    height: 6vh;
+    background: rgb(207, 29, 5);
+    position: absolute;
+    top: 60%;
+    left: 70.5%;
+    color: white;
+    border-radius:4px;
+    padding-top: 0.5%;
+    text-align: center;
+    text-decoration: none!important;
+}
+.btn1 img{
+    width: 11%;
+}
+.btn2 img{
+    width: 11%;
+}
+.btn3 img{
+    width: 11%;
+}
+.btn1:hover{
+    background: rgb(1, 36, 88);
+    color: white;
+}
+.btn2:hover{
+    background: rgb(1, 99, 1);
+    color: white;
+}
+.btn3:hover{
+    background: rgb(141, 18, 2);
+    color: white;
+}
+.btn1:active,.btn2:active,.btn3:active{
+    transform: translateY(4px);
+}
+.btn1:focus,.btn2:focus,.btn3:focus{
+    color: white;
+}
+.ulozi1{
+    width: 19.2%;
+    height: 40vh;
+    background: transparent;
+    position: absolute;
+    top: 68%;
+    left: 30.5%;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.ulozi2{
+    width: 19.2%;
+    height: 40vh;
+    background: transparent;
+    position: absolute;
+    top: 68%;
+    left: 50.5%;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+.ulozi3{
+    width: 19.2%;
+    height: 40vh;
+    background: transparent;
+    position: absolute;
+    top: 68%;
+    left: 70.5%;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+

@@ -1,0 +1,101 @@
+*{
+	box-sizing:border-box;
+}
+
+.containertocak{
+	width:500px;
+	height:500px;
+	background-color: #ccc;
+	border-radius:50%;
+	border:15px solid rgb(28, 28, 32);
+	position: absolute;
+	overflow: hidden;
+	transition: 5s;
+    top: 11%;
+    left:30.5%;
+}
+
+.containertocak div{
+	height:50%;
+	width:200px;
+	position: absolute;
+	clip-path: polygon(100% 0 , 50% 100% , 0 0 );
+	transform:translateX(-50%);
+	transform-origin:bottom;
+	text-align:center;
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	font-size:20px;
+	font-weight:bold;
+	font-family:sans-serif;
+	color:white;
+	left:135px;
+}
+
+.containertocak .one{
+	background-color: green;
+	left:50%;
+}
+.containertocak .two{
+	background-color: goldenrod;
+	transform: rotate(45deg);
+}
+.containertocak .three{
+	background-color: rgb(136, 3, 3);
+	transform:rotate(90deg);
+}
+.containertocak .four{
+	background-color: rgb(6, 138, 161);
+	transform: rotate(135deg);
+}
+.containertocak .five{
+	background-color: rgb(136, 3, 3);
+	transform: rotate(180deg);
+}
+.containertocak .six{
+	background-color: goldenrod;
+	transform: rotate(225deg);
+}
+.containertocak .seven{
+	background-color: rgb(6, 138, 161);
+	transform: rotate(270deg);
+}
+.containertocak .eight{
+	background-color: goldenrod;
+	transform: rotate(315deg);
+}
+
+.arrow{
+	position: absolute;
+	top:14%;
+	left:50%;
+	transform: translateX(-50%);
+	color:white;
+    z-index: 2;
+}
+
+.arrow::before{
+	content:"\2B99";
+	font-size:50px;
+}
+
+#spin{
+	position: absolute;
+	top:38%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	z-index:1;
+	background-color: rgb(28, 28, 32);
+	text-transform: uppercase;
+    border: none;
+	font-weight:bold;
+	font-size:20px;
+	color:#a2a2a2;
+	width: 420px;
+	height:420px;
+	font-family: sans-serif;
+	border-radius:50%;
+	outline:none;
+	letter-spacing: 1px;
+}
