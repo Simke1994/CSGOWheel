@@ -12,3 +12,4 @@ all bets and more..). Also every message will be stored in database.
 ![](imgs/csgo3.jpg)
 ![](imgs/csgo4.jpg)
 ![](imgs/csgo5.jpg)
+![](imgs/csgo6.jpg)
