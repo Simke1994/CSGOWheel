@@ -5,7 +5,7 @@
     if(isset($_SESSION['steamid'])){
         $id = $_SESSION['steamid'];
       } else {
-        //Ei kirjauduttu sisään
+        
       }
 
 ?>
@@ -33,7 +33,7 @@
         <link rel="stylesheet" href="css/chat.css">
         
         <!--donji deo-->
-        <link rel="stylesheet" href="css/donjideo.css">
+        <link rel="stylesheet" href="css/footer.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/rulet.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -103,6 +103,9 @@
                 width:96%;
                 z-index:-1;
             }
+            .ruletic img{
+                height:12vh;
+            }
             #okvir{
                 position:absolute;
                 top:10%;
@@ -112,13 +115,13 @@
                 background:transparent;
                 border:5px solid green;
                 border-radius:17px;
-                padding-left:2%;
-                padding-right:2%;
+                padding-left:1%;
+                padding-right:1%;
                 border-bottom:none;
                 border-top:none;
             }
             #tajmer{
-                font-size:40px;
+                font-size:35px;
                 top:10%;
                 display: flex;
                 justify-content: center;
@@ -129,7 +132,7 @@
             }
             #crta{
                 position:absolute;
-                top:16.5%;
+                top:16.8%;
                 left:50%;
                 width:4px;
                 border-radius:2px;
@@ -211,7 +214,7 @@
                 position:absolute;
                 left:21%;
                 width:40%;
-                height:3.5vh;
+                height:5vh;
                 overflow:hidden;
             }
             #images img{
@@ -550,7 +553,7 @@
             }
             @media (max-width:880px){
                 .footer-distributed{
-                    bottom:-68%;
+                    bottom:-88%;
                 }
                 .ruletic{
                     top:11%;
@@ -619,7 +622,7 @@
                     width:34%;
                     height:9vh;
                     left:33%;
-                    top:17%;
+                    top:15%;
                     background:rgb(28, 28, 32,0.8);
                     border:none;
                     z-index: 10;
@@ -628,13 +631,13 @@
                     font-size:45px;
                 }
                 .rulet .form-control{
-                    width: 44%;
-                    height: 3.9vh;
-                    top:38.5%;
+                    width: 36%;
+                    height: 4.2vh;
+                    top:38.6%;
                     left:3%;
                 }
                 .dugmici{
-                    left:48%;
+                    left:40%;
                     top:38.2%;
                 }
                 .dugmici .dugme1{
@@ -651,6 +654,9 @@
                 }
                 .ruletic{
                     margin-bottom:15px;
+                }
+                .ruletic img{
+                    height:16vh;
                 }
                 .dugmence1{
                     display:none;
@@ -696,6 +702,24 @@
                     left:4.5%;
                     border:3px solid rgb(141, 18, 2);
                 }
+                #ulozi1 p{
+                    padding-left:13px;
+                    padding-top:8px;
+                    padding-bottom:13px;
+                    padding-right:5px;
+                }
+                #ulozi2 p{
+                    padding-left:13px;
+                    padding-top:8px;
+                    padding-bottom:13px;
+                    padding-right:5px;
+                }
+                #ulozi3 p{
+                    padding-left:13px;
+                    padding-top:8px;
+                    padding-bottom:13px;
+                    padding-right:5px;
+                }
                 #pkulo1{
                     display:none;
                 }
@@ -740,13 +764,13 @@
                     display:none;
                 }
                 .btn1 img{
-                    width: 15%;
+                    width: 12%;
                 }
                 .btn2 img{
-                    width: 15%;
+                    width: 12%;
                 }
                 .btn3 img{
-                    width: 15%;
+                    width: 12%;
                 }
             }
         </style>
@@ -775,7 +799,7 @@
                         <div id="crta"></div>
                         <div class="zadnjirols">
                             <p class="zadnjihdeset">ZADNJIH 10</p>
-                            <div id="images">
+                            <div id="images"><img src="slike/ct3.png" id="slicka11">
                             </div>
                             <p class="t100">ZADNJIH 100</p>
                             <div class="deset">
@@ -921,7 +945,7 @@
                                         <li><a href="#">O nama</a></li>
                                         <li><a href="#">Kontakt</a></li>
                                         <li><a href="index.php">Rulet</a></li>
-                                        <li><a href="tocak.php">Tocak srece</a></li>
+                                        <!--<li><a href="tocak.php">Tocak srece</a></li>-->
                                         <!--<?php echo "<li><a href='steamauth/logout.php'>Izloguj se</a></li>"; ?>-->
                                         <?php
                                             if(!isset($_SESSION['steamid'])) {
