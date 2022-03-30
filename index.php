@@ -33,7 +33,7 @@
         <link rel="stylesheet" href="css/chat.css">
         
         <!--donji deo-->
-        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/donjideo.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script type="text/javascript" src="js/rulet.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
